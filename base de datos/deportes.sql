@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 17-10-2022 a las 20:02:59
+-- Tiempo de generación: 17-10-2022 a las 20:34:08
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.3.2
 
@@ -40,8 +40,7 @@ CREATE TABLE `equipos` (
 INSERT INTO `equipos` (`id_equipo`, `nombre_equipo`) VALUES
 (6, 'REAL-MADRID'),
 (7, 'MANCHESTER-UNITED'),
-(8, 'PSG'),
-(10, 'GOD5');
+(8, 'PSG');
 
 -- --------------------------------------------------------
 
@@ -65,9 +64,7 @@ INSERT INTO `jugadores_futbol` (`ID`, `nombre`, `posicion`, `nacionalidad`, `id_
 (7, 'CR7', 'DC', 'PORTUGES', 7),
 (8, 'MESSI', 'DC', 'argentino', 8),
 (10, 'VINICIUS', 'ST', 'BRAZIL', 6),
-(12, 'CR7-EL BICHO SIUUU', '', 'BRAZIL', 6),
-(13, 'tomas', 'DF', 'argentino', 7),
-(14, 'benedeto-pa', 'ST', 'BRAZIL', 10);
+(15, 'NEYMAR', 'ST', 'BRAZIL', 8);
 
 -- --------------------------------------------------------
 
@@ -126,7 +123,7 @@ ALTER TABLE `equipos`
 -- AUTO_INCREMENT de la tabla `jugadores_futbol`
 --
 ALTER TABLE `jugadores_futbol`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
